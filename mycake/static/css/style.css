@@ -1,0 +1,120 @@
+.btn-secondary {
+  color: #fff !important; }
+
+img {
+  width: 100%; }
+
+.logo {
+  width: 80px; }
+
+.navbar {
+  opacity: 0.9;
+  text-transform: uppercase; }
+
+.social a {
+  margin-right: 0.4rem; }
+
+
+#services {
+  background: url(../img/building.jpg) no-repeat top center fixed/cover;
+  min-height: 300px;
+  position: relative;
+  overflow: hidden; }
+  #services::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background: rgba(32, 134, 107, 0.8); }
+
+    .carousel-item {
+      height: 450px;
+      padding-top: 0;
+      margin-top: 0;
+      position: center;
+    }
+    
+    .carousel-image-1 {
+    
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(56, 70, 77, 0.0)), to(rgba(56, 70, 77, 0.9))), url(../img/chocolate.jpg);
+      background-image: linear-gradient(rgba(56, 70, 77, 0.9), rgba(56, 70, 77, 0.0)), url(../img/chocolate.jpg);
+      background-size: cover;
+    
+    }
+    
+    .carousel-image-2 {
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(56, 70, 77, 0.0)), to(rgba(56, 70, 77, 0.9))), url(../img/chocolate2.jpg);
+      background-image: linear-gradient(rgba(56, 70, 77, 0.9), rgba(56, 70, 77, 0.0)), url(../img/chocolate2.jpg);
+      background-size: cover;
+    }
+    
+    .carousel-image-3 {
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(56, 70, 77, 0.0)), to(rgba(56, 70, 77, 0.9))), url(../img/chocolate3.jpg);
+      background-image: linear-gradient(rgba(56, 70, 77, 0.9), rgba(56, 70, 77, 0.0)), url(../img/chocolate3.jpg);
+      background-size: cover;
+    }
+    
+    
+    .carousel-text {
+      text-align: center;
+      font-weight: 900;
+      font-size: 2.5rem;
+      line-height: 1.5;
+    
+    }
+    
+    .carousel-item {
+      padding: 7% 15%;
+    }
+
+
+
+#showcase-inner {
+  background: url(../img/bakery.jpg) no-repeat top center fixed/cover;
+  position: relative;
+  overflow: hidden;
+  min-height: 200px; }
+  #showcase-inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background: rgba(32, 134, 107, 0.8); }
+  #showcase-inner.showcase-search {
+    min-height: 270px; }
+
+#work {
+  padding: 6rem 0; }
+
+.listing-preview a {
+  position: relative; }
+
+@media (max-width: 991px) {
+  #showcase {
+    padding-top: 4rem; }
+    #showcase h1 {
+      font-size: 40px; }
+  .hide-md-down {
+    display: none; } }
+
+@media (max-width: 768px) {
+  #showcase {
+    padding-top: 3rem; }
+    #showcase h1 {
+      font-size: 40px; }
+    #showcase p {
+      display: none; }
+  #top-bar {
+    text-align: center; }
+    #top-bar .social {
+      text-align: center !important; } }
+
+@media (max-width: 576px) {
+  #showcase h1 {
+    font-size: 30px; }
+  #showcase-inner h1 {
+    font-size: 40px; } }
